@@ -124,6 +124,15 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+        .single_page{
+            width: 100%;
+        }
+
+        table img {
+            width: 100%;
+        }
+
+    
 
     table {
         border: black;
@@ -132,12 +141,16 @@ footer {
     tr, td {
         border: 4px solid chocolate;
     }
-
+    }
     @media (min-width: 1024px) {
         #container {
             width:75%;
             margin: 20px auto;
+            
+        
         }
+
+
         
         nav liv a {
             background-color: black;
@@ -157,16 +170,17 @@ footer {
 
 }
 
-.single_page {
-    width: 100%;
 
-}
 
 section img {
     width: 75%
 }
 
+table img {
+    width: 100%;
+}
+
  
 
 
-}
+
