@@ -1,0 +1,192 @@
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+img{
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+}
+iframe{
+    display:block;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
+    color: purple;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#container{
+  background-color: beige;
+}
+
+nav{
+    background-color: bisque;
+    padding: 2px 0;
+    text-align: center;
+    }
+nav ul {
+    padding: 0;
+    list-style-type: none;
+
+}
+
+
+nav li {
+    display: block;
+    border-bottom: 2px solid grey;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    color: azure;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover{
+    background-color: blueviolet;
+    color:blue;
+    background-color: black;
+}
+
+main{
+    padding: 10px;
+}
+
+.col {
+    padding: 10px;
+    border-top:2px solid purple;
+}
+
+footer {
+    background-color: black;
+    color:beige;
+    font-weight: bold;
+    text-align: center;
+    padding:  40px;
+}
+.button {
+    display: block;
+    width: 100px;
+    height: 10px;
+    line-height: 10px;
+    background-color: black;
+    color: coral;
+    text-decoration: beige;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: blueviolet;
+    border-color: white;
+}
+    @media(min-width: 786px) {
+        nav li {
+            display: inline-block;
+            border: 0;
+        }
+
+
+        nav li a{
+
+            width: 175px;
+            margin: 0% 5px;
+            border-radius:  10px;
+            border: 2px solid white;
+}   
+    main {
+        display: flex;
+    }
+
+    section,
+    aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+ /* section {
+    width: 70px;
+    } */
+
+    .col img {
+        width: 75%;
+
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .single_page{
+            width: 100%;
+        }
+
+        table img {
+            width: 100%;
+        }
+
+    
+
+    table {
+        border: black;
+    }
+
+    tr, td {
+        border: 4px solid chocolate;
+    }
+    }
+    @media (min-width: 1024px) {
+        #container {
+            width:75%;
+            margin: 20px auto;
+            
+        
+        }
+
+
+        
+        nav liv a {
+            background-color: black;
+            border: 0;
+}
+
+#lower_area {
+    display: flex;
+}
+    }
+
+    .col {
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        border-radius:10px;
+
+}
+
+
+
+section img {
+    width: 75%
+}
+
+table img {
+    width: 100%;
+}
+
+ 
+
+
+
